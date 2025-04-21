@@ -11,8 +11,8 @@ La función principal recibe una palabra como string y la convierte a minúscula
 ## 3. Devolver números primos
 La función principal recibe una lista de números en formato string, los convierte a enteros y evalúa cuáles son primos. Para cada número, se descartan los menores a 2 y se verifica si tiene divisores distintos de 1 y él mismo, evaluando solo hasta su raíz cuadrada (esto mejora la eficiencia). Si no se encuentra ningún divisor, se considera primo y se agrega a una nueva lista con un ciclo `for`. Cuando termina, la función retorna la lista con todos los números primos encontrados.
 
-## Verificador de sumas
+## 4. Verificador de sumas
 La función principal solicita una lista de números enteros desde la entrada del usuario, los convierte usando `map(int, ...)` y luego calcula la suma de cada par de números consecutivos. Para evitar errores en la funcion `enumerate()`, se excluye el último elemento del bucle. Cada suma se almacena en una nueva lista, y al final se imprime el valor más alto usando `max()`. 
 
-## Verificador de angramas
+## 5. Verificador de angramas
 La función recibe una lista de palabras y agrupa todas las que tienen las mismas letras, sin importar el orden. Convierte cada palabra a minúsculas y ordena sus letras con `sorted()`. Las palabras con las mismas letras ordenadas se agrupan en un diccionario. Luego, se recorren los grupos creados y si hay más de una palabra en un grupo, se consideran anagramas. Estas se agregan a un set para evitar duplicados, y el set final se imprime como el output.
